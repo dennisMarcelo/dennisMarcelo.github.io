@@ -30,9 +30,27 @@ h2{
 
 h4{
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size:1.7em ;
   
+}
+
+ul{
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.atalhos{
+  background-color: #009246;
+  text-align: right;
+ 
+}
+.atalhos ul{
+  display: inline-flex;
+}
+
+.atalhos ul li{
+  margin: 20px;
 }
 
 .list-style_none{
@@ -113,6 +131,13 @@ h4{
 margin: 0 80px ;
 }
 
-ul{
-  padding-inline-start: 0;
+.blog-favoritos{
+  background-color: #006d21;
+  text-align:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog-favoritos ul li{
+  font-size: 1.7em
 }
