@@ -26,3 +26,27 @@ strong{
     list-style: none;
 }
 
+.perfil{
+  background-color: yellow;
+  width: 80%;
+  margin:auto;
+  text-align: center;
+}
+
+.perfil h1{
+  font-size: 3em;
+}
+
+.imagem{
+  background-color: red;
+  margin-left: 2%;
+  width: 25%;
+}
+
+.imagem img{
+  width: 100%;
+}
+
+.imagem p{
+  margin-top: 5px;
+}
