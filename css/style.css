@@ -27,10 +27,15 @@ strong{
 }
 
 .perfil{
-  background-color: yellow;
   width: 80%;
   margin:auto;
   text-align: center;
+}
+
+.perfil .imagem,
+.perfil .sobre
+{
+  display: inline-block;
 }
 
 .perfil h1{
@@ -38,9 +43,9 @@ strong{
 }
 
 .imagem{
-  background-color: red;
   margin-left: 2%;
   width: 25%;
+  min-width: 250px;
 }
 
 .imagem img{
@@ -49,4 +54,24 @@ strong{
 
 .imagem p{
   margin-top: 5px;
+  margin-bottom: 0px;
+
+}
+
+.sobre{
+  margin-top: 0px;
+  width: 70%;
+  padding: 5px ;
+
+}
+
+.sobre h2{
+  margin-top: 0px;
+  margin-bottom: 3px;
+  font-size: 3em;
+}
+
+.sobre p{
+  margin-bottom: 0px;
+  font-size: 1.5em;
 }
